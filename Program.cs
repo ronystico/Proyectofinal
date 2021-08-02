@@ -91,6 +91,12 @@ namespace Proyectofinal
                         Console.WriteLine("Intenta con otro.");
                         Console.ReadKey();
                     }
+                    else
+                    {
+                        Console.WriteLine("Lo sentimoss, el usuario posiblemente no existe");
+                        Console.ReadKey();
+                        break;
+                    }
 
                 }
             } while (condicionAll == false);
